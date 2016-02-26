@@ -7,7 +7,7 @@ class MicroBlogger
 	def initialize
 		puts "initz microblogger"
 		@client = JumpstartAuth.twitter
-		Klout.api_key = 'xu9ztgnacmjx3bu82warbr3h'
+		Klout.api_key = '' #Insert Api key
 	end
 
 	def tweet(message)
